@@ -431,11 +431,15 @@ ul {
   background-color: #fff;
   width: 100vw;
   height: 100vh;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   transition: all 0.5s;
   z-index: 2000;
   max-width: 425px;
   margin: auto;
   -webkit-backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .refine.refine--sub-close {
